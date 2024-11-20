@@ -150,3 +150,68 @@ nav .active{
     border: 1px solid #0079c7;
     border-top: none;
 }
+
+#general {
+    display: flex;
+    justify-content: center;
+}
+
+#general section {
+    flex: 2
+}
+
+#general aside {
+    flex: 1
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widget-title-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #39aae1;
+    margin: 1px 10px 10px 10px;
+}
+
+.media-phone,
+.media-email,
+.media-contact {
+    border-bottom: 1px solid #a7acb8;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: #888888;
+}
+
+.media a {
+    text-decoration: none;
+    color: #555;
+}
+
+.media b {
+    color: #000;
+}
+
+.media i {
+    margin-right: 5px;
+}
